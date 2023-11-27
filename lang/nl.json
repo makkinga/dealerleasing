@@ -1,0 +1,11 @@
+{
+    "companyName": "Bedrijfsnaam",
+    "legalForm": "Rechtsvorm",
+    "iban": "IBAN",
+    "street": "Straat",
+    "houseNumber": "Huisnummer",
+    "postalCode": "Postcode",
+    "city": "Woonplaats",
+    "email": "E-mail",
+    "financeEmail": "Financiële correspondentie"
+}

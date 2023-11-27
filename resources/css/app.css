@@ -1,0 +1,47 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles */
+
+/* Headings */
+h2 {
+    @apply text-2xl;
+}
+
+h3 {
+    @apply text-xl;
+}
+
+/* Forms */
+.label {
+    @apply text-sm text-gray-500;
+}
+
+.instructions {
+    @apply text-xs text-gray-400;
+}
+
+input,
+textarea,
+select {
+    @apply appearance-none block w-full p-4 bg-white rounded ring-1 ring-gray-200 leading-tight focus:outline-none focus:ring-gray-300 placeholder-gray-200;
+}
+
+button[type="submit"],
+.button {
+    @apply appearance-none w-fit px-5 py-3 rounded bg-primary hover:bg-primary/60 text-xs text-white font-bold transition-all;
+
+    &:disabled {
+        @apply bg-primary-disabled cursor-not-allowed;
+    }
+}
+
+/* Components */
+.card {
+    @apply p-6 bg-white rounded;
+}
